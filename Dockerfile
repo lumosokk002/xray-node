@@ -1,3 +1,4 @@
+# xray-node
 FROM alpine:3.20
 RUN apk add --no-cache curl unzip ca-certificates \
     && curl -L https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o /tmp/xray.zip \
